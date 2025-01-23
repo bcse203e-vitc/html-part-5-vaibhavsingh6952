@@ -1,0 +1,98 @@
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.pricing-table {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.pricing-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.price {
+  font-size: 2rem;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+ 
+.popular {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transform: scale(1.05);
+}
+
+.popular h2,
+.popular .price {
+  color: #fff;
+}
+
+ 
+.pricing-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pricing-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.popular .pricing-button {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.popular .pricing-button:hover {
+  background-color: #ffc107;
+}

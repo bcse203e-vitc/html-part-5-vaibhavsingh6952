@@ -1,0 +1,32 @@
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+ 
+.box {
+  width: 300px; 
+  height: 200px;  
+  padding: 10%;  
+  margin: 5%;  
+  background-color: #e0e0e0;
+  border: 5px solid #333;  
+  transition: border 0.3s ease;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+ 
+.box:hover {
+  border: 10px solid #007bff;  
+}

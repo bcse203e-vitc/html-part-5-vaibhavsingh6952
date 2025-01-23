@@ -1,0 +1,66 @@
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+ 
+.gradient-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gradient-button:hover {
+  transform: scale(1.1);
+}
+
+/* Border Color Change Button */
+.border-hover-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.border-hover-button:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+ 
+.glow-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  cursor: pointer;
+  box-shadow: 0 0 10px #1e90ff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px #1e90ff, 0 0 30px #1e90ff;
+  transform: scale(1.1);
+}

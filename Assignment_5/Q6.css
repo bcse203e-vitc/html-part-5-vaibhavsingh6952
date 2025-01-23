@@ -1,0 +1,52 @@
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.animated-header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.animated-title {
+  font-size: 2.5rem;
+  margin: 0;
+  animation: colorChange 3s infinite alternate;
+}
+
+.animated-nav {
+  margin-top: 20px;
+}
+
+.animated-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.animated-nav a:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+ 
+@keyframes colorChange {
+  0% {
+    color: #ffffff;
+    font-size: 2.5rem;
+  }
+  50% {
+    color: #ffd700;
+    font-size: 2.8rem;
+  }
+  100% {
+    color: #00ff7f;
+    font-size: 3rem;
+  }
+}
